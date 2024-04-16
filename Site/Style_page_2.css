@@ -1,0 +1,264 @@
+/* Mon css */
+.material-symbols-rounded
+{
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 300,
+	'GRAD' 0,
+	'opsz' 24
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+header
+{
+	height: 6vh;
+	width: 97vw;
+}
+
+body
+{
+	background-color: black;
+	display: flex;
+}
+
+p
+{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.barre_nav
+{
+	width: 97vw;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin: 1vh 1vw 1vw 1vh;
+	background-color: #232324;
+	color :white;
+	border-radius: 145px 145px 145px 145px;
+
+}
+
+.barre_nav img
+{
+	margin-left: 2vw;
+	margin-right: 1vw;
+}
+
+.barre_nav section
+{
+	margin-left: auto;
+	display: flex;
+}
+
+.btn_normal a
+{
+	color:grey;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.barre_nav section .btn_connexion a
+{
+	margin-left : 2vw;
+	padding: 20px;
+	background-color: white;
+	border-radius: 145px 145px 145px 145px;
+	color :black;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Css Gauche */
+
+.rectangle-gauche
+{
+	min-width: 15vw;
+	overflow: auto;
+	height: 81vh;
+	text-align: center;
+	width: 15vw;
+	background-color: #232324;
+	padding: 20px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.rectangle-gauche h2
+{
+	color: white;
+	margin-bottom: -4vh;
+}
+
+.rectangle-gauche section
+{
+	display: flex;
+	margin-left: 10vh;
+}
+
+.rectangle-gauche p
+{
+	color:white
+}
+
+.rectangle-gauche .playlists .musiques
+{
+	margin-bottom: 3vh;
+	background-color: #39393b;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.rectangle-gauche .playlists .musiques img
+{
+	margin-top: 1vh;
+}
+
+.rectangle-gauche .playlists .musiques audio
+{
+	border-radius: 20px 20px 20px 20px;
+	width: 13.5vw;
+}
+
+.playlists
+{
+	margin-top: 7vh;
+}
+
+.rectangle-gauche .material-symbols-rounded
+{
+	color : white;
+}
+
+/* Milieu */
+/* Barre du haut */
+.milieu
+{
+	width: 77vw;
+	min-height: 77.8vh;
+	padding: 20px 20px 50px 20px;
+	margin: 0 15px;
+	border-radius: 20px 20px 20px 20px;
+	background: linear-gradient(rgb(54, 54, 180),rgb(23, 22, 22))
+}
+.milieu .haut
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.milieu .haut .material-symbols-rounded
+{
+	color:white;
+	background-color: black;
+	border-radius: 20px;
+	font-size: 30px;
+}
+
+.milieu .haut a
+{
+	margin-left : -5vw;
+	padding: 10px;
+	background-color: white;
+	border-radius: 145px 145px 145px 145px;
+	color :black;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Toutes les musiques */
+
+.milieu .Musiques section
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.milieu .Musiques p
+{
+	margin-left: 2vw;
+	color: white;
+	
+}
+
+.milieu .Musiques .music
+{
+	display: flex;
+	align-items: center;
+	margin: 1vw;
+	padding: 20px;
+	width: 20vw;
+	background-color: #39393b;
+	border-radius: 20px;
+
+}
+.milieu .Musiques .music .Youtubeur
+{
+	font-size: 1.4rem;
+}
+.milieu .Musiques .music .Titre
+{
+	color: rgb(136, 136, 136);
+	font-size: 0.9rem;
+}
+
+.milieu .Musiques section .music img
+{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+
+.prt-centre
+{
+	display: flex;
+	align-items: start;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1570px) {
+
+	.milieu
+	{
+		width: 76%;
+	}
+	.rectangle-gauche
+	{
+		height: auto;
+	}
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #39393b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #49494c;
+}
